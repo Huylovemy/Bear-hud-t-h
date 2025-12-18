@@ -4,7 +4,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Bear Hud",
-         Animation = "Premium"
+         Animation = "Tổng Hợp Siêu Vip"
          },
         Key = {
         KeySystem = true,
