@@ -10,7 +10,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "Huy Tổng Hợp",
         Description = "Dùng Script Vui Vẻ",
-        KeyLink = "https://raw.githubusercontent.com/Huylovemy/Key-bear-hud/refs/heads/main/Key%20bear%20hud",
+        KeyLink = "https://link4m.com/kjzVaRAh",
         Keys = {"Huydepzai"},
         Notifi = {
         Notifications = true,
