@@ -14,7 +14,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Keys = {"Huydepzai"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Wrong Key Successfull ✅",
+        CorrectKey = "Hello fen",
        Incorrectkey = "Working Key No Key ❌",
       }
     }
