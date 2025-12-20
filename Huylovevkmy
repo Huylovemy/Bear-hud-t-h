@@ -136,9 +136,9 @@ AddButton(Tab1o, {
   end
   })
 AddButton(Tab4o, {
-     Name = "Script sẽ luôn cập nhật các script mới nhất
-Cảm ơn anh em đã ủng hộ",
+     Name = "Thông báo của script Bear Hud tổng hợp",
     Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
   end
   })
   AddButton(Tab3o, {
