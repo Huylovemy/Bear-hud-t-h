@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Blox Fruits"})
-     local Tab2o = MakeTab({Name = "Ply"})
+     local Tab2o = MakeTab({Name = "Khác"})
      local Tab3o = MakeTab({Name = "99 ngày Trong rừng"})
      
 ------- BUTTON
@@ -70,6 +70,20 @@ AddButton(Tab2o, {
      Name = "PvP",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox.lua", true))()
+  end
+  })
+
+AddButton(Tab2o, {
+     Name = "Ambot",
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()
+  end
+  })
+
+AddButton(Tab1o, {
+     Name = "Tăng hitbox",
+    Callback = function() 
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
   end
   })
   AddButton(Tab1o, {
