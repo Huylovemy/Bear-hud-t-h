@@ -138,7 +138,6 @@ AddButton(Tab1o, {
 AddButton(Tab4o, {
      Name = "Script sẽ luôn cập nhật các script mới nhất Cảm ơn anh em đã ủng hộ",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
   end
   })
   AddButton(Tab3o, {
