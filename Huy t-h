@@ -42,6 +42,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
   end
   })
+    AddButton(Tab1o, {
+     Name = "Huy Top PVP",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Huy-Top-PvP/refs/heads/main/PVP%20top"))()
+  end
+  })
   AddButton(Tab1o, {
      Name = "Gravity Hud",
     Callback = function() 
