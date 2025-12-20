@@ -60,7 +60,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         loadstring(game:HttpGet("https://raw.githubusercontent.com/huytong233-hue/Pls/refs/heads/main/Huyply"))()
   end
   })
-
+  AddButton(Tab2o, {
+     Name = "ESP and AM",
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Joshingtonn123/JoshScript/refs/heads/main/SyrexhubSniperOrDie"))()
+  end
+  })
 AddButton(Tab2o, {
      Name = "God mod v1",
     Callback = function() 
