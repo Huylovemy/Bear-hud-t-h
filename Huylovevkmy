@@ -136,7 +136,8 @@ AddButton(Tab1o, {
   end
   })
 AddButton(Tab4o, {
-     Name = "Script sẽ luôn cập nhật các script mới nhất Cảm ơn anh em đã ủng hộ",
+     Name = "Script sẽ luôn cập nhật các script mới nhất
+Cảm ơn anh em đã ủng hộ",
     Callback = function()
   end
   })
