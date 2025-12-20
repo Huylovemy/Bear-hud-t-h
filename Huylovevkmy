@@ -33,6 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Blox Fruits"})
      local Tab2o = MakeTab({Name = "Khác"})
      local Tab3o = MakeTab({Name = "99 ngày Trong rừng"})
+     local Tab4o = MakeTab({Name = "Thông báo"})
      
 ------- BUTTON
     
@@ -132,6 +133,12 @@ AddButton(Tab1o, {
      Name = "Huy pvp",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huypvp"))()
+  end
+  })
+AddButton(Tab4o, {
+     Name = "Script sẽ luôn cập nhật các script mới nhất Cảm ơn anh em đã ủng hộ",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
   end
   })
   AddButton(Tab3o, {
