@@ -60,6 +60,7 @@ AddButton(Tab2o, {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/miglels33/God-Mode-Script/refs/heads/main/GodModeScript.md"))()
   end
   })
+
 AddButton(Tab2o, {
      Name = "God mod v2",
     Callback = function() 
@@ -72,7 +73,12 @@ AddButton(Tab2o, {
        loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox.lua", true))()
   end
   })
-
+AddButton(Tab2o, {
+     Name = "Huy mod",
+    Callback = function() 
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Huy-mod/refs/heads/main/Huy%20mod"))()     
+  end
+  })
 AddButton(Tab2o, {
      Name = "Ambot",
     Callback = function() 
