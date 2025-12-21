@@ -99,9 +99,9 @@ AddButton(Tab2o, {
   end
   })
   AddButton(Tab1o, {
-     Name = "PvP",
+     Name = "PvP(key:BESTAIMBOT)",
     Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox.lua", true))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox.xyz", true))()
   end
   })
 AddButton(Tab2o, {
