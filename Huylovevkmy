@@ -69,6 +69,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/TrashLua/BloxFruits/m
   end
   })
   AddButton(Tab2o, {
+     Name = "Fix Lag",
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TIKTOK-BOYCHOIGAME/PH-ICH-U/refs/heads/main/FIXLAGV2.BOYCHOIGAME"))()
+  end
+  })
+  AddButton(Tab2o, {
      Name = "ESP and AM",
     Callback = function() 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Hack/refs/heads/main/Huydepzai209"))()
