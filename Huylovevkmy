@@ -166,4 +166,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisChuoiEng"))()
   end
   })
+  AddButton(Tab1o, {
+     Name = "Apple cat hud",
+    Callback = function() 
+       getgenv().Team = "Marines"
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/longdwieh/HoangLong-script/refs/heads/main/HoangLongHub.lua.txt"))()
+  end
+  })
