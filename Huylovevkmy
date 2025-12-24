@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
        local Window = MakeWindow({
          Hub = {
-         Title = "Bear Hud     by Quang Huy",
+         Title = "Bear Hud       by Quang Huy",
          Animation = "Tổng Hợp Siêu Vip"
          },
         Key = {
