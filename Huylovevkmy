@@ -45,6 +45,12 @@ getgenv().Key = "vwNqRDHZmXwofpzHrENkEJqEXtGyuiXw"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
   end
   })
+AddButton(Tab1o, {
+     Name = "Blue X Hud",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
     AddButton(Tab1o, {
      Name = "Tuấn Anh IOS",
     Callback = function()
