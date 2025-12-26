@@ -38,14 +38,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
 
 AddButton(Tab1o, {
-     Name = "Banana Hud",
-    Callback = function()
-	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
-getgenv().Key = "dUfhAKUQdwRazMilJayacwskaSAAZeRw" 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
-  end
-  })
-AddButton(Tab1o, {
      Name = "Blue X Hud",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
