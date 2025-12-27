@@ -111,7 +111,7 @@ AddButton(Tab2o, {
   end
   })
   AddButton(Tab1o, {
-     Name = "PvP(key:BESTAIMBOT)",
+     Name = "PvP(key:tIljtIJltIjltjtiljtIltjitjft)",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox.xyz", true))()
   end
