@@ -12,11 +12,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Description = "Dùng Script Vui Vẻ",
         KeyLink = "https://link4m.com/kjzVaRAh",
         Keys = {"Huydepzai"},
-        Keys = {"fanhuy"},
+        Keys = {"fanhuy"}
         Notifi = {
         Notifications = true,
         CorrectKey = "Hello fen",
-        CorrectKey = "Hi fan' huy nha",
+        CorrectKey = "Hi fan' huy nha"
        Incorrectkey = "Key sai",
       }
     }
