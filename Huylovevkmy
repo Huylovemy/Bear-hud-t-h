@@ -136,7 +136,7 @@ AddButton(Tab1o, {
   end
   })
   AddButton(Tab1o, {
-     Name = "Quantumdz",
+     Name = "Quan Tum Onyx",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
   end
