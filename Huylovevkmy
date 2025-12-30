@@ -50,6 +50,12 @@ AddButton(Tab1o, {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
   end
   })
+AddButton(Tab1o, {
+     Name = "Night hud",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/BF-Beta.lua"))()
+  end
+  })
     AddButton(Tab1o, {
      Name = "Tuấn Anh IOS",
     Callback = function()
