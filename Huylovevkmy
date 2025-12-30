@@ -33,7 +33,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Blox Fruits"})
      local Tab2o = MakeTab({Name = "Khác"})
      local Tab3o = MakeTab({Name = "99 ngày Trong rừng"})
-     local Tab4o = MakeTab({Name = "Thông báo"})
+     local Tab4o = MakeTab({Name = "sever"})
+     local Tab5o = MakeTab({Name = "Thông báo"})
      
 ------- BUTTON
 
@@ -153,7 +154,7 @@ AddButton(Tab1o, {
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huypvp"))()
   end
   })
-AddButton(Tab4o, {
+AddButton(Tab5o, {
      Name = "Thông báo của script Bear Hud tổng hợp",
     Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
@@ -190,5 +191,11 @@ AddButton(Tab1o, {
      Name = "PvP aim chiêu",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/onion132005-bit/Onion133/refs/heads/main/Script.lua"))()
+  end
+  })
+AddButton(Tab4o, {
+     Name = "Hop Sever",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Hop-sv/refs/heads/main/Huylovemy"))()
   end
   })
