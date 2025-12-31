@@ -41,6 +41,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 AddButton(Tab1o, {
      Name = "Lucky",
     Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudhop/refs/heads/main/Huylovewifemy"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "Lucky",
+    Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ytzeno99/bufflucky/refs/heads/main/LucKyRadomFruit.lua"))()
   end
   })
