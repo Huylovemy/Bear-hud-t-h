@@ -44,6 +44,12 @@ AddButton(Tab2o, {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudhop/refs/heads/main/Huylovewifemy"))()
   end
   })
+AddButton(Tab2o, {
+     Name = "Ply",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudply/refs/heads/main/Bearhud"))()
+  end
+  })
 AddButton(Tab1o, {
      Name = "Lucky",
     Callback = function()
