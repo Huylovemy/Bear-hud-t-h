@@ -38,8 +38,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      
 ------- BUTTON
 
-AddButton(Tab1o, {
-     Name = "Lucky",
+AddButton(Tab2o, {
+     Name = "Ring",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudhop/refs/heads/main/Huylovewifemy"))()
   end
