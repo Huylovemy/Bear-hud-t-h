@@ -230,3 +230,15 @@ AddButton(Tab4o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
   end
   })
+AddButton(Tab1o, {
+     Name = "King Rùa",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/shinichi-dz/phucshinyeuem/refs/heads/main/KingRuaHub.lua"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "Aurora",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/Aurora"))()
+  end
+  })
