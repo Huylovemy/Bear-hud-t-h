@@ -44,6 +44,12 @@ AddButton(Tab1o, {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
   end
   })
+AddButton(Tab1o, {
+     Name = "Bear hud",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Huyscript/refs/heads/main/newscript.txt"))()
+  end
+  })
 AddButton(Tab2o, {
      Name = "Ring",
     Callback = function()
